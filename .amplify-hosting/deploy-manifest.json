@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "routes": [
+      {
+        "path": "/*",
+        "target": {
+          "kind": "Static",
+          "cacheControl": "max-age=5, stale-while-revalidate"
+        }
+      }
+    ],
+    "framework": {
+      "name": "node",
+      "version": "18.17.0"
+    }
+}
